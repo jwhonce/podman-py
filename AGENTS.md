@@ -271,7 +271,7 @@ ssh localhost exit
 
 ### Files to Exclude from Indexing
 
-The `.cursorignore` file specifies files and directories that AI agents should avoid indexing or processing. Key exclusions include:
+The `.cursorignore` file specifies files and directories that AI agents should avoid indexing or processing. **Note**: Items already covered by `.gitignore` should not be duplicated in `.cursorignore` to avoid redundancy. Key exclusions include:
 
 **Build Artifacts:**
 

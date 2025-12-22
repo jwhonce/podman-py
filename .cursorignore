@@ -1,32 +1,17 @@
-# Build and distribution directories
-build/
-dist/
-*.egg-info/
-__pycache__/
+# Additional Python bytecode files not in .gitignore
 *.pyc
 *.pyo
 *.pyd
-.Python
 
-# Documentation build outputs
-_build/
-docs/_build/
+# Documentation build outputs (additional to .gitignore)
 docs/build/
 
-# Virtual environments
-venv/
-env/
-.venv/
-.env/
-
-# IDE and editor files
-.vscode/
-.idea/
+# IDE and editor files (additional to .gitignore)
 *.swp
 *.swo
 *~
 
-# OS generated files
+# OS generated files (not in .gitignore)
 .DS_Store
 .DS_Store?
 ._*
@@ -35,18 +20,10 @@ env/
 ehthumbs.db
 Thumbs.db
 
-# Testing and coverage
-.coverage
-.pytest_cache/
-.tox/
-htmlcov/
+# Testing and coverage (additional to .gitignore)
 .nox/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# mypy
-.mypy_cache/
+# mypy (additional files)
 .dmypy.json
 dmypy.json
 
@@ -59,15 +36,11 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# Large binary files
-*.so
+# Large binary files (additional to .gitignore)
 *.dylib
 *.dll
 
-# Logs
-*.log
-
-# Temporary files
+# Temporary files (not in .gitignore)
 *.tmp
 *.temp
 .tmp/
@@ -75,6 +48,3 @@ cython_debug/
 
 # Git files (if needed)
 .git/
-
-# Package manager files that might be large
-node_modules/
